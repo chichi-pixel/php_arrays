@@ -1,3 +1,13 @@
+<?php
+
+$frameworks = array("CakePhp", "Symfony", "ZendFramework", "CodeIgniter", "Laravel");
+
+$books = [“Hippie” => “Paulo Coelho”, “CleanCode” => “RobertCecilMartin”];
+foreach ($books as $key => $value) { 
+ echo "Key=" . $key . ", Value=" . $value; echo "<br>";
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +18,7 @@
     <title>HTML-Boilerplate Beispiel</title>
 </head>
 <body>
-   /* die Html Code in einer Html Datei*/
+   /* die Html Code in einer Php-Datei*/
    <article>
       <h1>Überschrift</h1>
       <p>Das ist ein Absatz</p>
@@ -32,13 +42,3 @@
 </body>
 </html>
 
-<?php
-
-$frameworks = array("CakePhp", "Symfony", "ZendFramework", "CodeIgniter", "Laravel");
-
-$books = [“Hippie” => “Paulo Coelho”, “CleanCode” => “RobertCecilMartin”];
-foreach ($books as $key => $value) { 
- echo "Key=" . $key . ", Value=" . $value; echo "<br>";
-}
-
-?>
