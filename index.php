@@ -2,7 +2,7 @@
 
 $frameworks = array("CakePhp", "Symfony", "ZendFramework", "CodeIgniter", "Laravel");
 
-$books = [“Hippie” => “Paulo Coelho”, “CleanCode” => “RobertCecilMartin”];
+$books = [“Hippie” => “PauloCoelho”, “CleanCode” => “RobertCecilMartin”];
 foreach ($books as $key => $value) { 
  echo "Key=" . $key . ", Value=" . $value; echo "<br>";
 }
